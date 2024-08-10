@@ -16,13 +16,11 @@ function checkPDFSize(pdfUrl) {
             //iframe.height = "200"; // Adjust height as needed
             previewContainer.appendChild(iframe);
           } else {
-            linkElement.textContent = 'Article 1';
             linkElement.style.display = 'block';
           }
         })
         .catch(error => {
           console.error('Error checking PDF size:', error);
-          linkElement.textContent = 'Article 1';
           linkElement.style.display = 'block';
         });
     }
