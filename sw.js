@@ -1,4 +1,4 @@
-var cacheName = 'hello-Roshankr';
+var cacheName = 'saf';
 var filesToCache = [
   '/',
   '/index.html',
