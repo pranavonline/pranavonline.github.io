@@ -2,8 +2,8 @@ var cacheName = 'saf';
 var filesToCache = [
   '/',
   '/index.html',
-  '/css/main.css',
-  '/js/main.js'
+  '/assets/css/main.css',
+  '/assets/js/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
